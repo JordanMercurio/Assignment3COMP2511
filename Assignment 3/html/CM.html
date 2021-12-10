@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Jordan Mercurio">
+        <meta name="description" content="My Resume">
+        <link rel="stylesheet" href="styling/C.css">
+        <title></title>
+    </head>
+    
+    <body>
+        
+        <header>
+            <nav>
+                   <div class ="menu"><a href = "H.html">Home</a></div>
+                <br>
+                    <div class ="menu"><a href = "AM.html">About</a></div>
+                <br>
+                    <div class ="menu"><a href ="A.html">Achievements</a></div>
+                <br>
+                    <div class="menu"><a href = "E.html">Experience</a></div>
+                <br>
+                    <div class="menu"><a href = "CM.html">Contact Me</a></div>
+            </nav>
+        </header>
+    
+                <form method="get" action="mailto:jmerc673@mtroyal.ca">
+            
+            <h2>How to Contact Me</h2>
+                <fieldset class="basicinfo">
+                    
+                    <legend><strong>Basic Information</strong></legend>
+                <p>
+                    <label>
+                        <p>Hows your day going?</p>
+                    </label>
+                    <label>
+                        <input name="mood" type="checkbox" value="feeling">
+                        Amazing 
+                    </label>
+                    
+                    <label>
+                        <input name="mood" type="checkbox" value="feeling">
+                        Good
+                    </label>
+                    
+                    <label>
+                        <input name ="mood" type="checkbox" value="feeling">
+                        Its Okay
+                    </label>
+                    
+                    <label>
+                        <input name="mood" type="checkbox" value="feeling">
+                        Not Going So Well
+                    </label>
+                </p>
+                    
+                <p> 
+                    <label>Major:
+                        
+                        <select name="cities">
+                            <option selected> Select your Major</option>
+                            <option>Bachelor of Arts</option>
+                            <option>Bachelor of Business Administration</option>
+                            <option>Bachelor of Child Studies</option>
+                            <option>Bachelor of Communication</option>
+                            <option>Bachelor of Computer Information Systems</option>
+                            <option>Bachelor of Education</option>
+                            <option>Bachelor of Health and Physical Education</option>
+                            <option>Bachelor of Interior Design</option>
+                            <option>Bachelor of Midwifery</option>
+                            <option>Bachelor of Nursing</option>
+                            <option>Bachelor of Science</option>
+                            <option>Bachelor of Social Work</option>
+                            <option>Other</option>
+                            
+                        </select>
+                        
+                    </label>    
+                    
+                <p>
+                   
+                    <label>Expected Graduation Date:
+                            <input name="date" type="date">
+                    </label>
+                    <br>
+                    <label>If Graduated check
+                            <input name="yes" type="checkbox">Yes
+                    </label>
+                </p>
+                    
+                <p>
+                    <label>
+                        What year are you in?
+                        <input name="num" type="number" min="0" max="10" value="1">
+                    </label>
+                </p>
+                    
+                <p>
+                    <label>
+                        <input name="pick" type="radio" value="Student">Student
+                    </label>    
+                    
+                    <label>
+                        <input name="pick" type="radio" value="Professor">Professor
+                    </label>
+                    
+                    <label>
+                        <input name="pick" type="radio" value="Employeer">Employer
+                    </label>
+                </p>
+                    
+                <p> 
+                    <label>
+                            <input name="selection" type="radio" value="Female"> Female
+                    </label>
+                    
+                    <label>
+                            <input name="selection" type="radio" value="Male"> Male
+                    </label>
+                    
+                    <label>
+                            <input name="selection" type="radio" value="Other"> Other
+                    </label>
+                </p>
+                    
+                </fieldset>
+            
+            <br>
+        
+                <fieldset class="personalinfo">
+                    
+                   <legend><strong>Personal Information</strong></legend> 
+                    
+                <p>
+                    <label> Name:
+                            <input name="name" type="text">
+                    </label>    
+                        
+                </p>
+                    
+                <p>
+                    <label>Phone:
+                            <input name= "phone" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="123-123-1234">
+                    </label>    
+                </p>
+                    
+                <p>
+                    <label>Email:
+                            <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="20" placeholder="JohnSmith@email.com">
+                    </label>    
+                </p>
+                    
+                </fieldset>
+            
+                <h3>When Submitted, it will be sent to my Email</h3>
+            
+            <div class="input">
+                <input name="search" type="submit">
+                <input name="clear" type="reset">
+            </div>
+        </form>
+        
+        <footer>
+            <p>
+                <em>Copyright &copy; 2021 Get to know me only if you dont know me yet</em>
+            </p>
+        </footer>
+        
+    </body>
+
+
+</html>

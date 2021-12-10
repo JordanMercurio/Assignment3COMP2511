@@ -1,0 +1,66 @@
+
+nav{
+    position: relative;
+    display: flex;
+    top: 10px;
+    justify-content:flex-end;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.menu{
+    background-color: #5BCCF6;
+    color: black;
+    margin: 5px;
+    border-radius: 50px;
+    padding: 5px 30px;
+}
+
+body{
+    background: #FCDE67;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    top: 35px;
+    background: #5BCCF6;
+}
+
+input{
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.basicinfo{
+    background-color: #5BCCF6;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.personalinfo{
+    background-color: #5BCCF6;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 50%;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
